@@ -1,0 +1,283 @@
+/* ==========================
+design by rizki abdilah    
+=========================== */
+
+/* =================================================== Carousel */
+.carousel-item {
+    background: no-repeat center center scroll;
+    background-size: cover;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    top: 50%;
+    right: 0;
+    height: 60px;
+    width: 60px;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    background-color: lightblue;
+}
+
+@media screen and (max-width:425px) {
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        top: 50%;
+        right: 0;
+        height: 30px;
+        width: 30px;
+        background-size: 100%, 100%;
+        border-radius: 50%;
+        border: 1px solid lightgray;
+        background-color: lightblue;
+    }
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23009be1' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23009be1' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+
+}
+
+
+/* ==============================================================katagori menu */
+@media only screen and (min-width: 768px) {
+    .list-menu {
+        display: none;
+    }
+
+    .list-device {
+        display: none;
+    }
+
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .list-laptop {
+        display: none;
+    }
+
+
+    .m-laptop {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+
+    .ctg {
+        padding-left: 20px;
+        font-size: 1.5rem;
+    }
+
+    .table-responsive {
+        width: 99%;
+    }
+
+    .conta>.table-responsive {
+        width: 98%;
+    }
+
+    .conta>.table-responsive::-webkit-scrollbar {
+        visibility: hidden;
+    }
+
+    .ctr {
+        height: 50%;
+        width: 50%;
+        text-align: center;
+        border-bottom: 1px solid grey;
+        background: linear-gradient(rgba(242, 242, 242, 1) 0%, rgba(250, 250, 250, 0.85) 53%, rgba(253, 253, 253, 0.81) 67%, rgba(255, 255, 255, 0.81) 81%);
+        border-radius: 10%;
+        margin-left: 0.5rem;
+    }
+
+    .ctr>img {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        height: 60px;
+        border-radius: 2px;
+        padding-right: 2px;
+    }
+
+    .ctr>a:hover {
+        text-decoration: none;
+        color: #00349b;
+    }
+
+    .ctr>a img {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        height: 60px;
+        border-radius: 2px;
+        padding-right: 2px;
+    }
+
+    .tls {
+        font-size: 14px !important;
+        color: #6c757d;
+        font-weight: 600;
+        padding-top: 4px;
+        line-height: 5px;
+        text-decoration: none;
+        letter-spacing: 0.03rem;
+    }
+
+    .tls:hover {
+        color: #00349b;
+    }
+
+}
+
+/* ==============================================Menu daging */
+
+
+.tekcol {
+    position: relative;
+    display: flex;
+    flex-flow: row;
+    padding: 8px 16px;
+}
+
+.head-tekcol {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    flex: 1 1 auto;
+    overflow: hidden;
+}
+
+.text-tekcol {
+
+    display: block;
+    color: rgba(49, 53, 59, 0.96);
+    font-size: 1.51429rem;
+    font-weight: 600;
+    line-height: 1.53;
+    overflow-wrap: break-word;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.lhs {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding-left: 8px;
+    flex: 0 0 auto;
+    overflow: hidden;
+}
+
+.link-tekcol {
+    font-size: 0.857143rem;
+    font-weight: 600;
+    color: rgb(3, 172, 14);
+    line-height: 1.5;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: auto 0px auto auto;
+}
+
+.link-tekcol:hover {
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .conta {
+        margin-left: 0;
+    }
+
+    .head-tekcol {
+        justify-self: center;
+        justify-content: center;
+        flex: none;
+
+    }
+}
+
+.allbox {
+    margin-left: 0.3rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    margin-bottom: 1rem;
+    margin-top: 0.1rem;
+}
+
+.allbox:hover {
+    box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.8);
+}
+
+.crh {
+    position: relative;
+
+
+}
+
+.im-crh {
+    width: 150px;
+    height: 180px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+@media only screen and (min-width: 768px) {
+    .im-crh {
+        width: 180px;
+        height: 190px;
+        border-top-left-radius: 5%;
+        border-top-right-radius: 5%;
+    }
+
+}
+
+.crh a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .3);
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.crh:hover a {
+    opacity: 1;
+}
+
+.crf {
+    text-align: center;
+}
+
+.crf p {
+    margin-bottom: 0;
+    max-width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media only screen and (min-width: 768px) {
+    .crf p {
+        margin-bottom: 0;
+        max-width: 200px;
+    }
+}
+
+
+
+
+
+/* ====================================================================================== */

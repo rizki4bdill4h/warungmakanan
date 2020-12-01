@@ -1,0 +1,111 @@
+/* =====================
+design by rizki abdilah 
+========================*/
+
+.floating-whatsapp {
+    position: fixed;
+    bottom: 12%;
+    right: 4%;
+    z-index: 9999
+}
+
+@media screen and (min-width:900px) {
+    .floating-whatsapp {
+        bottom: 10%
+    }
+}
+
+.floating-whatsapp button.btn.btn-floating-whatsapp {
+    background: #25d366;
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 50%;
+    color: #fff;
+    display: -webkit-box !important;
+    display: flex !important;
+    -webkit-box-pack: center !important;
+    justify-content: center !important;
+    -webkit-box-align: center !important;
+    align-items: center !important;
+    float: left
+}
+
+.floating-whatsapp button.btn.btn-floating-whatsapp i.fab.fa-whatsapp {
+    font-size: 2.4em
+}
+
+.floating-whatsapp .badge-whatsapp-wrapper {
+    position: absolute;
+    display: inline-block;
+    right: 100%;
+    top: 10%;
+    width: 200px
+}
+
+.floating-whatsapp .badge-whatsapp-wrapper .badge-floating-whatsapp {
+    visibility: hidden;
+    background: #222;
+    color: #fff;
+    float: right;
+    font-size: .8em;
+    padding: 5px 10px;
+    margin: 10px 0;
+    position: relative
+}
+
+.floating-whatsapp .badge-whatsapp-wrapper .badge-floating-whatsapp:before {
+    content: "";
+    position: absolute;
+    top: 15%;
+    right: -10%;
+    margin-left: -10px;
+    border: 10px solid transparent;
+    border-left-color: #222
+}
+
+.floating-whatsapp button.btn.btn-floating-whatsapp:hover~.badge-whatsapp-wrapper .badge-floating-whatsapp {
+    visibility: visible
+}
+
+.sliders {
+    position: relative;
+    margin-top: 0;
+    margin-bottom: -20px
+}
+
+@media screen and (min-width:1200px) {
+    .sliders {
+        padding: 0 15px !important
+    }
+}
+
+@media screen and (max-width:900px) {
+    .sliders {
+        margin-top: -30px
+    }
+}
+
+@media screen and (max-width:900px) {
+    .sliders #tns1>.tns-item {
+        width: 345px !important
+    }
+
+    .sliders #tns1>.tns-item img {
+        width: 330px !important
+    }
+}
+
+.sliders #slider-navs {
+    position: absolute;
+    z-index: 999;
+    bottom: 20px;
+    left: 50%
+}
+
+@media screen and (max-width:900px) {
+    .sliders #slider-navs {
+        bottom: -10px;
+        padding-left: 15px;
+        left: 0
+    }
+}

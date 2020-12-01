@@ -1,0 +1,255 @@
+.breadcrumb {
+    margin-top: 10px;
+}
+
+.cart-breadcrumb {
+    margin-top: 1px;
+}
+
+.breadcrumb {
+    font-weight: 300;
+    letter-spacing: 0.01rem;
+}
+
+.nav-link.active {
+    background-color: rgba(49, 53, 59, 0.96) !important;
+    color: white !important;
+}
+
+.breadcrumb-item>a:hover {
+    text-decoration: none;
+}
+
+.single-product {
+    margin-bottom: 10px;
+}
+
+.pmbts {
+    border-bottom: 1px solid #EAEAEF;
+    padding-bottom: 10px;
+}
+
+.btn-product {
+    margin: 2px 0;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #EAEAEF;
+}
+
+.btn-product .btn {
+    display: block;
+    margin: 10px 0;
+    background-color: #25D366;
+    color: #EAEAEF;
+}
+
+.tab-content {
+    border: 1px solid #EAEAEF;
+}
+
+/* notes */
+
+
+.note>.bg-not {
+    border-left: 0.1rem solid #EAEAEF;
+    margin-right: 0.2rem;
+
+}
+
+.note>.bg-not>h5 {
+    margin-left: 1rem;
+}
+
+.note>.bg-not>p {
+    display: list-item;
+    font-display: auto;
+    list-style: circle;
+    list-style-position: outside;
+    margin-left: 0.9rem;
+}
+
+/* ===terkeit */
+.terkait>p {
+    margin-left: 1rem;
+    display: block;
+    color: rgba(49, 53, 59, 0.96);
+    font-size: 1.51429rem;
+    font-weight: 600;
+    line-height: 1.53;
+    overflow-wrap: break-word;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+/* ================================Modal */
+.modal-content {
+    z-index: -99;
+
+}
+
+.modal-footer {
+    justify-content: center;
+    padding: 0;
+}
+
+.modal-footer>* {
+    margin: 0;
+}
+
+form.whatsapp-form {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
+    border-radius: .5rem;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #444;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+a.send_form {
+    color: #fff;
+    background: #21a51f;
+    text-decoration: none;
+    display: inline-block;
+    padding: 7px 20px;
+    border-radius: .3rem;
+    font-weight: 700;
+    letter-spacing: .5px;
+    font-size: 15px;
+    text-align: center;
+}
+
+#text-info span {
+    display: block;
+    padding: 10px 15px;
+    text-align: center;
+    font-weight: 700;
+    margin: 15px 0;
+    border-radius: .5rem;
+}
+
+#text-info span.yes {
+    background: #c6ffc5;
+    color: #0ea904;
+}
+
+#text-info span.no {
+    background: #ffc5c5;
+    color: #ce0404;
+}
+
+.whatsapp-form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* Input Field CSS */
+.datainput {
+    position: relative;
+    margin: 5px 0 20px
+}
+
+.datainput p {
+    font-size: 12px;
+    background: #eee;
+    padding: 5px 1px;
+    border-radius: .5rem;
+    overflow: hidden;
+}
+
+.whatsapp-form textarea {
+    min-height: 60px
+}
+
+
+.datainput input,
+.datainput textarea {
+    font-size: 15px;
+    padding: 15px 0;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ddd
+}
+
+.datainput input:focus,
+.datainput textarea:focus {
+    outline: none
+}
+
+.datainput label {
+    color: #999;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    pointer-events: none;
+    left: 0;
+    top: 18px;
+    transition: .2s ease all
+}
+
+.datainput input:focus~label,
+.datainput input:valid~label,
+.datainput textarea:focus~label,
+.datainput textarea:valid~label {
+    top: -10px;
+    font-size: 14px;
+    color: #21a51f
+}
+
+#notif-license span {
+    font-size: 40px
+}
+
+#notif-license {
+    display: none;
+    position: fixed
+}
+
+.bar {
+    position: relative;
+    display: block;
+    width: 100%
+}
+
+.bar:before,
+.bar:after {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 1px;
+    position: absolute;
+    background: #21a51f;
+    transition: .2s ease all
+}
+
+.bar:before {
+    left: 50%
+}
+
+.bar:after {
+    right: 50%
+}
+
+.datainput input:focus~.bar:before,
+.datainput input:focus~.bar:after,
+.datainput textarea:focus~.bar:before,
+.datainput textarea:focus~.bar:after {
+    width: 50%
+}
+
+.datainput input:focus~.highlight,
+.datainput textarea:focus~.highlight {
+    animation: inputHighlighter .3s ease
+}
+
+.datainput input:focus~label,
+.datainput input:valid~label,
+.datainput textarea:focus~label,
+.datainput textarea:valid~label {
+    top: -10px;
+    font-size: 13px;
+    color: #21a51f
+}
